@@ -156,6 +156,17 @@ body{
     color:#0175b2;
 }
 
+.resume_wrapper .resume_links .resume_info a:link {
+     text-decoration: none; 
+}
+
+.resume_wrapper .resume_links .resume_info a:visited  { 
+    text-decoration: none; 
+}
+
+.resume_wrapper .resume_links .resume_info a:active  {
+     text-decoration: none; 
+}
 
 .resume_wrapper .resume_right{
     width: 65%;
@@ -201,14 +212,16 @@ body{
 .resume_wrapper .resume_right .resume_data .content{
     padding-left: 35px;
     padding-bottom: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: calc(100% - 115px);
 }
 
 .resume_wrapper .resume_right .resume_data .content .title{
     color: #262626;
     font-weight: bold;
-    padding-bottom: 5px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: justify;
 }
 
 .resume_wrapper .resume_right .resume_data .content .description p{
@@ -217,15 +230,19 @@ body{
     text-justify: inter-word;
 }
 
+.resume_wrapper .resume_right .resume_data:last-child{
+    margin-bottom: -50px;
+}
+
 .resume_wrapper .resume_right .resume_data .year:before{
     content: "";
     position: absolute;
-    top: 5px;
-    right: 0;
+    top: 2px;
+    right: 0px;
     width: 10px;
     height: 10px;
     background: #fff;
-    border: 1px solid #0175b2;
+    border: 3px solid #0175b2;
     border-radius: 50%;
 }
 
@@ -233,9 +250,9 @@ body{
     content: "";
     position: absolute;
     top: 17px;
-    right: 4px;
-    width: 3px;
-    height: 90%;
+    right: 6px;
+    width: 4px;
+    height: 100%;
     background: #0175b2;
 }
 
