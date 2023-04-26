@@ -84,7 +84,6 @@ body{
 
 .resume_wrapper .resume_left .resume_contact .resume_info{
     margin-top: 10px;
-    
 }
 
 .resume_wrapper .resume_left .resume_contact .resume_subtitle{
@@ -130,22 +129,24 @@ body{
     padding: 0;
 }
 
+
 .resume_wrapper .resume_links .resume_info .links{
-    width: 80px;
-	height: 80px;
+    width: 200px;
+	height: 50px;
     margin: 5px;
 	border-radius: 15px;
 	display: flex;
-	flex-direction: column;
+    flex-grow: 100;
+	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
     border: 2px solid #0175b2;
     background-color: #262626;
     transition: 0.5s;
 }
 
 .resume_wrapper .resume_links .resume_info .link_data{
-    margin-top: 5px;
+    margin: 0px;
     text-align: center;
     color:#848484;
 }
@@ -154,6 +155,7 @@ body{
 .resume_wrapper .resume_links .resume_info .link_icon{
     font-size: 20px;
     color:#848484;
+    margin: 10px;
 }
 
 
