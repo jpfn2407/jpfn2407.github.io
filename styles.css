@@ -82,23 +82,19 @@ body{
     color: #848484;
 }
 
-.resume_wrapper .resume_left .resume_birth .resume_info{
+.resume_wrapper .resume_left .resume_birth .resume_info,
+.resume_wrapper .resume_left .resume_contact .resume_info,
+.resume_wrapper .resume_left .resume_familiarwith .resume_info{
     margin-top: 10px;
 }
 
-.resume_wrapper .resume_left .resume_birth .resume_subtitle{
+.resume_wrapper .resume_left .resume_birth .resume_subtitle,
+.resume_wrapper .resume_left .resume_contact .resume_subtitle,
+.resume_wrapper .resume_left .resume_familiarwith .resume_subtitle{
     color: #fff;
     margin-bottom: 2px;
 }
 
-.resume_wrapper .resume_left .resume_contact .resume_info{
-    margin-top: 10px;
-}
-
-.resume_wrapper .resume_left .resume_contact .resume_subtitle{
-    color: #fff;
-    margin-bottom: 2px;
-}
 
 .resume_wrapper .resume_left .resume_skills .skills_list{
     display: flex;
