@@ -10,7 +10,7 @@
 
 body{
     /*background: #c4c4c4;*/
-    background: linear-gradient(to bottom right, #093a55, #75cfff);
+    background: linear-gradient(to bottom right, #062a42, #8cc8e8);
     font-size: 14px;
     line-height: 20px;
 }
@@ -95,7 +95,7 @@ body{
 .resume_wrapper .resume_left .resume_skills .skills_list{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .resume_wrapper .resume_left .resume_skills .skills_list .skills_bar p{
@@ -114,24 +114,34 @@ body{
     height: 100%;
 }
 
+.resume_wrapper .resume_left .resume_skills .resume_subtitle p{
+    color: #5a5a5a;
+    padding-top: 0px;
+    font-size: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 13px;
+}
+
 .resume_wrapper .resume_left .resume_links .resume_info ul{
 	display: flex;
 	flex-wrap: wrap;
+    margin: 0; 
+    padding: 0;
 }
 
 .resume_wrapper .resume_links .resume_info .links{
     width: 80px;
 	height: 80px;
-	margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 5px;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-    border: 2px solid #0175b2;
+    border: 3px solid #0175b2;
     background-color: #262626;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .resume_wrapper .resume_links .resume_info .link_data{
@@ -211,7 +221,6 @@ body{
 
 .resume_wrapper .resume_right .resume_data .content{
     padding-left: 35px;
-    padding-bottom: 5px;
     margin-bottom: 50px;
     width: calc(100% - 115px);
 }
@@ -220,7 +229,6 @@ body{
     color: #262626;
     font-weight: bold;
     font-size: 15px;
-    padding-bottom: 10px;
     text-align: justify;
 }
 
@@ -237,10 +245,10 @@ body{
 .resume_wrapper .resume_right .resume_data .year:before{
     content: "";
     position: absolute;
-    top: 2px;
+    top: 3px;
     right: 0px;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: #fff;
     border: 3px solid #0175b2;
     border-radius: 50%;
@@ -264,6 +272,8 @@ body{
 .resume_interests .resume_info ul{
     display: flex;
 	flex-wrap: wrap;
+    margin: 0; 
+    padding: 0;
 }
 
 .resume_hobbies .resume_info .hobbies,
